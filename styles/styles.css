@@ -134,7 +134,5 @@ p {
 .social {
   color: hsl(0, 0%, 100%);
   padding: 15px 10px;
-
   /*border:solid 8px hsl(0, 0%, 12%);*/
-  border-radius: 1rem;
 }
