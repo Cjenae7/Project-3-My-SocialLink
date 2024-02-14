@@ -90,23 +90,24 @@ textarea:not([rows]) {
 
 body {
   background-color: hsl(0, 0%, 8%);
-  padding: 300px 400px;
-  font-size: 14px;
   display: flex;
-  margin: 50px 200px;
+  font-size: 0.9rem;
+  margin: 100px 400px;
 }
 .flex-container {
+  display: flex;
+  flex-direction: column;
   background-color: hsl(0, 0%, 12%);
-  border-radius: 1.5rem;
-  padding: 50px 20px 20px;
-  text-align: center;
+  border-radius: 1rem;
+  padding: 15px;
+  margin: 100px 200px;
+  align-items: center;
 }
 
 img {
-  width: 40%;
-  border-radius: 100px;
-  margin: auto;
-  display: block;
+  max-width: 30%;
+  margin-top: 20px;
+  border-radius: 4rem;
 }
 
 h1 {
@@ -116,7 +117,7 @@ h1 {
 h2 {
   color: hsl(75, 94%, 57%);
   margin-top: 8px;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Inter", sans-serif;
 }
 
@@ -125,14 +126,24 @@ p {
   margin: 20px;
   font-family: "Inter", sans-serif;
 }
-.categories {
-  background-color: hsl(0, 0%, 20%);
+
+.list {
+  color: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
   border-radius: 1rem;
 }
 
-.social {
-  color: hsl(0, 0%, 100%);
-  padding: 15px 10px;
-  /*border:solid 8px hsl(0, 0%, 12%);*/
+ul.categories {
+  list-style: none;
+  text-align: center;
+  margin: 0 10px;
+  padding: 10px 5px;
+}
+
+li.social {
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 15px;
+  width: 275px;
+  border: 10px solid hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
 }
